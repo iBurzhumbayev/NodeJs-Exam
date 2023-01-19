@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+p {
+    margin-bottom: 0
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #fff;
+    width: 960px;
+    margin: 0 auto
+}
+
+.content__AuthReg {
+    background-color: #edeef0;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.content__AuthReg .avthorization {
+    width: 320px;
+    padding: 32px 0;
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.content__AuthReg .avthorization .title {
+    margin-bottom: 20px
+}
+
+.content__AuthReg .avthorization form {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.content__AuthReg .avthorization input {
+    padding: 8px 12px;
+    width: 270px;
+    border-radius: 8px;
+    border: 1px solid #edeef0;
+    background-color: #edeef0;
+    outline-style: none
+}
+
+.content__AuthReg .avthorization input:focus {
+    border: 1px solid #07f
+}
+
+.content__AuthReg .avthorization__input {
+    margin-top: 15px
+}
+
+.content__AuthReg .avthorization__button {
+    background: #07f;
+    width: 270px;
+    height: 36px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer
+}
+
+.content__AuthReg .avthorization__button:hover {
+    opacity: .88
+}
+
+.content__AuthReg .avthorization__registration {
+    margin-top: 40px
+}
+
+.content__AuthReg .avthorization__registration a {
+    background: #4bb34b;
+    width: 270px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none
+}
+
+.content__AuthReg .avthorization__registration a:hover {
+    opacity: .88
+}
+
+.content__AuthReg .avthorization__registration-description {
+    width: 250px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px
+}
+
+.registration {
+    width: 320px;
+    padding: 32px 0;
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.registration .title {
+    margin-bottom: 20px
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.registration input {
+    padding: 8px 12px;
+    width: 270px;
+    border-radius: 8px;
+    border: 1px solid #edeef0;
+    background-color: #edeef0;
+    outline-style: none
+}
+
+.registration input:focus {
+    border: 1px solid #07f
+}
+
+.registration__input {
+    margin-top: 15px
+}
+
+.registration__button {
+    background: #07f;
+    width: 270px;
+    height: 36px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer
+}
+
+.registration__button:hover {
+    opacity: .88
+}
+
+.content {
+    background-color: #edeef0;
+    min-height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 30px 0
+}
+
+.content__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 960px
+}
+
+.content__main-wrapper {
+    display: flex;
+    flex-direction: column
+}
+
+.content__main-wrapper-create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px
+}
+
+.content__main-wrapper-create textarea {
+    border: none;
+    outline-style: none;
+    resize: none;
+    width: 100%
+}
+
+.content__profile {
+    width: 175px;
+    padding: 20px 0;
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.content__profile-subscribers {
+    margin-top: 20px
+}
+
+.content__posts {
+    width: 510px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end
+}
+
+.content__posts-wrapper {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 20px
+}
+
+.content__posts-box {
+    display: flex;
+    align-items: center
+}
+
+.content__posts-inner {
+    margin-left: 10px
+}
+
+.content__posts-likes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #edeef0;
+    border-radius: 12px;
+    width: 66px;
+    height: 32px;
+    padding: 0 14px;
+    cursor: pointer
+}
+
+.content__posts-likes:hover {
+    opacity: .88
+}
+
+.content__posts-heart {
+    font-size: 28px;
+    color: #818c99
+}
+
+.content__users {
+    width: 225px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.user__profil {
+    font-size: 20px;
+    font-weight: 500
+}
+
+.user__profilTitle {
+    font-size: 20px;
+    font-weight: 500
+}
+
+.button__logout {
+    background: #07f;
+    width: 135px;
+    height: 36px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0
+}
+
+.button__logout:hover {
+    opacity: .88
+}
+
+.button__delete {
+    background: red
+}
+
+.button__edit {
+    background: #4bb34b
+}
+
+.button__save {
+    background: orange;
+    display: none
+}
+
+.button__deletePost {
+    background: #edeef0;
+    width: 50px;
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative
+}
+
+.button__deletePost:hover {
+    opacity: .88
+}
+
+.button__deletePost:hover::before {
+    content: "Удалить";
+    position: absolute;
+    top: -40px;
+    left: -10px;
+    color: #fff;
+    background: red;
+    border-radius: 8px;
+    width: 70px
+}
+
+.button__editPost {
+    background: #edeef0;
+    width: 50px;
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative
+}
+
+.button__editPost:hover {
+    opacity: .88
+}
+
+.button__editPost:hover::before {
+    content: "Редактировать";
+    position: absolute;
+    top: -40px;
+    left: -35px;
+    color: #fff;
+    background: #4bb34b;
+    border-radius: 8px;
+    width: 120px
+}
+
+.button__savePost {
+    display: none;
+    background: #4bb34b;
+    width: 50px;
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative
+}
+
+.button__savePost:hover {
+    opacity: .88
+}
+
+.button__savePost:hover::before {
+    content: "Сохранить";
+    position: absolute;
+    top: -40px;
+    left: -35px;
+    color: #fff;
+    background: #4bb34b;
+    border-radius: 8px;
+    width: 120px
+}
+
+.button__follow {
+    background: #07f;
+    width: 24px;
+    height: 24px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+    position: relative
+}
+
+.button__follow:hover {
+    opacity: .88
+}
+
+.button__follow-follow:hover::before {
+    content: "Подписаться";
+    position: absolute;
+    right: -140px;
+    color: #fff;
+    background: #07f;
+    border-radius: 8px;
+    width: 100px
+}
+
+.button__follow-unfollow:hover::before {
+    content: "Отписаться";
+    position: absolute;
+    right: -140px;
+    color: #fff;
+    background: red;
+    border-radius: 8px;
+    width: 100px
+}
+
+.user__input {
+    display: none;
+    width: 135px;
+    height: 36px;
+    border-radius: 8px;
+    text-align: center
+}
+
+.user__input-name {
+    margin-top: 10px
+}
+
+.user__input-surname {
+    margin-top: 5px;
+    margin-bottom: 10px
+}
+
+.button__create-post {
+    display: none;
+    background: #07f;
+    width: 160px;
+    height: 36px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px
+}
+
+.button__create-post:hover {
+    opacity: .88
+}
+
+.hr__create {
+    margin: 0;
+    display: none;
+    width: 100%;
+    margin-top: 10px
+}
+
+.post__textarea {
+    margin-top: 10px;
+    width: 470px;
+    outline-style: none
+}

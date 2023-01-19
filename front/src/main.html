@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="bootstrap-reboot.rtl.min.css">
+    <link rel="stylesheet" href="http://localhost:8080/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">ВШАГЕ</div>
+        <div class="header__time"></div>
+    </header>
+    <section class="content">
+        <div class="content__main">
+            <div>
+                <div class="content__profile">
+                
+                </div>
+                <div class="content__profile content__profile-subscribers">
+
+                </div>
+            </div>
+
+            <div class="content__main-wrapper">
+                <div class="content__main-wrapper-create">
+                    <textarea class="textarea_create-post" name="" id="" cols="30" rows="1" placeholder="Что у Вас нового?" onkeyup="checkTextLength()"></textarea>
+                    <hr class="hr__create">
+                    <button class="button__create-post" onclick="createPost()">Создать пост</button>
+                </div>
+                <div class="content__posts">
+                    
+                </div>
+            </div>
+    
+            <div class="content__users">
+                
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="js/time.js"></script>
+</body>
+</html>

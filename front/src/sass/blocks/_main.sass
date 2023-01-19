@@ -1,0 +1,245 @@
+.content
+    background-color: #edeef0
+    min-height: calc(100vh - 50px)
+    display: flex
+    justify-content: center
+    padding: 50px 0 30px 0
+    &__main
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        width: 960px
+        &-wrapper
+            display: flex
+            flex-direction: column
+            &-create
+                display: flex
+                flex-direction: column
+                align-items: center
+                background-color: #fff
+                padding: 20px
+                border-radius: 12px
+                margin-bottom: 20px
+                textarea
+                    border: none
+                    outline-style: none
+                    overflow:hidden
+                    resize: none
+                    width: 100%
+    &__profile
+        width: 175px
+        padding: 20px 0
+        background-color: #fff
+        border-radius: 12px
+        display: flex
+        flex-direction: column
+        align-items: center
+        &-subscribers
+            margin-top: 20px
+    &__posts
+        width: 510px
+        display: flex
+        flex-direction: column-reverse
+        align-items: flex-end
+        &-wrapper
+            width: 100%
+            background-color: #fff
+            border-radius: 12px
+            margin-bottom: 20px
+            padding: 20px
+        &-box
+            display: flex
+            align-items: center
+        &-inner
+            margin-left: 10px
+        &-likes
+            display: flex
+            justify-content: space-between
+            align-items: center
+            background: #edeef0
+            border-radius: 12px
+            width: 66px
+            height: 32px
+            padding: 0 14px
+            cursor: pointer
+            &:hover
+                opacity: .88
+        &-heart
+            font-size: 28px
+            color: #818c99
+        &-amount
+
+    &__users
+        width: 225px
+        padding: 20px
+        background-color: #fff
+        border-radius: 12px
+        display: flex
+        flex-direction: column
+        align-items: center
+        
+.user__profil
+    font-size: 20px
+    font-weight: 500
+
+.user__profilTitle
+    font-size: 20px
+    font-weight: 500
+
+.button__logout
+    background: #0077ff
+    width: 135px
+    height: 36px
+    border-radius: 8px
+    border: none
+    color: #fff
+    cursor: pointer
+    margin: 5px 0
+    &:hover
+        opacity: .88
+
+.button__delete
+    background: red
+
+.button__edit
+    background: #4bb34b
+    
+
+.button__save
+    background: orange
+    display: none
+
+.button__deletePost
+    background: #edeef0
+    width: 50px
+    height: 32px
+    border-radius: 8px
+    border: none
+    color: #fff
+    cursor: pointer
+    position: relative
+    &:hover
+        opacity: .88
+        &::before
+            content: "Удалить"
+            position: absolute
+            top: -40px
+            left: -10px
+            color: #fff
+            background: red
+            border-radius: 8px
+            width: 70px
+
+.button__editPost
+    background: #edeef0
+    width: 50px
+    height: 32px
+    border-radius: 8px
+    border: none
+    color: #fff
+    cursor: pointer
+    position: relative
+    &:hover
+        opacity: .88
+        &::before
+            content: "Редактировать"
+            position: absolute
+            top: -40px
+            left: -35px
+            color: #fff
+            background: #4bb34b
+            border-radius: 8px
+            width: 120px
+
+.button__savePost
+    display: none
+    background: #4bb34b
+    width: 50px
+    height: 32px
+    border-radius: 8px
+    border: none
+    color: #fff
+    cursor: pointer
+    position: relative
+    &:hover
+        opacity: .88
+        &::before
+            content: "Сохранить"
+            position: absolute
+            top: -40px
+            left: -35px
+            color: #fff
+            background: #4bb34b
+            border-radius: 8px
+            width: 120px
+
+.button__follow
+    background: #0077ff
+    width: 24px
+    height: 24px
+    border-radius: 8px
+    border: none
+    color: #fff
+    cursor: pointer
+    margin: 5px 0
+    position: relative
+    &:hover
+        opacity: .88
+    &-follow
+        &:hover
+            &::before
+                content: "Подписаться"
+                position: absolute
+                right: -140px
+                color: #fff
+                background: #0077ff
+                border-radius: 8px
+                width: 100px
+    &-unfollow
+        &:hover
+            &::before
+                content: "Отписаться"
+                position: absolute
+                right: -140px
+                color: #fff
+                background: red
+                border-radius: 8px
+                width: 100px
+
+.user__input
+    display: none
+    width: 135px
+    height: 36px
+    border-radius: 8px
+    text-align: center
+    &-name
+        margin-top: 10px
+    &-surname
+        margin-top: 5px
+        margin-bottom: 10px
+
+.button__create-post
+    display: none
+    background: #0077ff
+    width: 160px
+    height: 36px
+    border-radius: 8px
+    border: none
+    color: #fff
+    cursor: pointer
+    margin-top: 20px
+    &:hover
+        opacity: .88
+
+.hr__create
+    margin: 0
+    display: none
+    width: 100%
+    margin-top: 10px
+
+.post__textarea
+    margin-top: 10px
+    width: 470px
+    outline-style: none
+
+    

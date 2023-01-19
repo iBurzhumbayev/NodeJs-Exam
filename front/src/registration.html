@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="bootstrap-reboot.rtl.min.css">
+    <link rel="stylesheet" href="http://localhost:8080/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">ВШАГЕ</div>
+        <div class="header__time"></div>
+    </header>
+    <section class="content__AuthReg">
+        <div class="registration">
+            <div class="title">Форма регистрации</div>
+            <form>
+                <input required id="fullName" type="text" placeholder="Имя">
+                <input required id="fullSurname" class="registration__input" type="text" placeholder="Фамилия">
+                <input required id="login" class="registration__input" type="text" placeholder="Логин">
+                <input required id="password" class="registration__input" type="text" placeholder="Пароль">
+                <button class="registration__button">Зарегистрироваться</button>
+            </form>
+        </div>
+    </section>
+    <script src="js/registration.js"></script>
+    <script src="js/time.js"></script>
+</body>
+</html>
